@@ -902,7 +902,7 @@ strong, b {
   display: flex;
   flex-flow: row wrap;
 }
-.footer--content .half {
+.footer--content .third {
   display: flex;
   flex: 1 0 100%;
   width: 100%;
@@ -923,11 +923,14 @@ strong, b {
 }
 
 @media(min-width: 600px) {
-  .footer--content .half {
-    flex: 1 0 50%;
-    width: 50%;
+  .footer--content .third {
+    flex: 1 0 33%;
+    width: 33%;
   }
-  .footer--content .half + .half {
+  .footer--content .third + .third {
+    justify-content: center;
+  }
+  .footer--content .third + .third + .third{
     justify-content: flex-end;
   }
 }
