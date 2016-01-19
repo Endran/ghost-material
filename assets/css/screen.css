@@ -929,6 +929,7 @@ strong, b {
   }
   .footer--content .third + .third {
     justify-content: center;
+    text-align: center;
   }
   .footer--content .third + .third + .third{
     justify-content: flex-end;
@@ -997,6 +998,14 @@ strong, b {
 }
 .facebook {
   background-color: #3b5998 !important;
+  color: white;
+}
+.linkedin {
+  background-color: #0077B5 !important;
+  color: white;
+}
+.stackoverflow {
+  background-color: #f89c4d !important;
   color: white;
 }
 

@@ -52,15 +52,15 @@ a:hover {
 .post--content > h4,
 .post--content > h5,
 .post--content > h6 {
-  border-color: teal;
+  border-color: #512DA8;
 }
 .post--content p > code {
-  background-color: #e0f2f1;
-  color: teal;
+  background-color: #D1C4E9;
+  color: #512DA8;
 }
 .post--content blockquote {
-  background-color: #e0f2f1;
-  border-color: teal;
+  background-color: #D1C4E9;
+  border-color: #512DA8;
 }
 .post--tags a {
   color: #888;
@@ -130,14 +130,14 @@ a:hover {
   color: #FFFFFF;
 }
 .footer--top {
-  color: 727272;
+  color: #727272;
 }
 .footer--bottom a {
-  color: #004d40;
+  color: #512DA8;
 }
 .footer--bottom a:hover {
   color: #727272;
 }
 .footer--bottom {
-  color: #004d40 ;
+  color: #512DA8 ;
 }
